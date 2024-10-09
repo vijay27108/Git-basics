@@ -1,0 +1,81 @@
+# To config username and mail id 
+git config --list
+git config --global user.name
+git config --global user.email
+
+# To Check name and email id
+git config user.name
+git config user.email
+
+# For help
+git commit help
+
+# To check the current folder
+pwd
+
+# To check all hidden files on bash
+ls -la
+
+# To check the status after changes
+git status 
+
+# To add the changes
+git add .
+
+git add file_name
+
+# To commit the changes
+git commit -m "first commit"
+
+# To create new branch
+git checkout -b "branch_name"
+
+# To shift to new branch
+git checkout "branch_name"
+
+# To push the code
+git push origin "branch_name"
+
+# To check the log
+git log
+
+# To check the changes of one author
+git log --author "githib_id"
+
+# How to delete file
+git rm "filename"
+# commit and push
+
+# How to rename the files
+git mv first_name second_name 
+
+# To add and commit
+git commit -am "add_commit"
+
+# To add the name of repo
+git remote add "repo url"
+
+# To check all the versions
+git log
+
+# To restore to a particular versiom
+git restore HEAD id file_name
+
+# To push the code
+git push origin "branchname"
+
+# To ignore the file
+create ".gitignore"
+add file path to it
+
+# To create branches
+git checkout -b "branchname"
+
+# To move form one branch to another branch
+git checkout "branchname"
+
+
+
+
+
+
